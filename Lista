@@ -7,7 +7,7 @@ for generos in tupla_generos:
     dicionario_generos.append(generos)
 
 for index, generos in enumerate (tupla_generos):
-     dicionarios_generos[f"generos{index}"] = generos
+     dicionarios_generos[f"generos {index} - {generos}"] = generos
 
 print (dicionario_generos)
 print(dicionarios_generos)
