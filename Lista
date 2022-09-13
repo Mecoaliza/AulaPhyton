@@ -1,0 +1,13 @@
+tupla_generos = ("Aechmea","Brosimum","Senna","Oxalis","Ficus","Verbena")
+lista_generos = ["Aechmea","Brosimum","Senna","Oxalis","Ficus","Verbena"]
+dicionario_generos = []
+dicionarios_generos = {}
+
+for generos in tupla_generos:
+    dicionario_generos.append(generos)
+
+for index, generos in enumerate (tupla_generos):
+     dicionarios_generos[f"generos{index}"] = generos
+
+print (dicionario_generos)
+print(dicionarios_generos)
